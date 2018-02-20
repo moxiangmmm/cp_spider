@@ -26,22 +26,23 @@ class Handel_html(object):
             title = t[0] if len(t)>1 else "未获取到" # 标题
             info = div.xpath(".//tbody//tr[2]//text()") # 信息
             if len(info) > 0:
-                info_list = info[0].split("\xa0\xa0\xa0\xa0")
-                # ['深圳市福田区人民法院', '（2016）粤0304民初18775-18776号之一', '2017-07-10']
-                fa_yuan = info_list[0]
-                id = info_list[1]
-                date = info_list[2]
-            else:
-                fa_yuan = '未获取到'
-                id = '未获取到'
-                date = '未获取到'
-            cp_one.append(id)
-            cp_one.append(date)
-            cp_one.append(fa_yuan)
-            cp_one.append(title)
-            cp_one.append(jd)
-            cp_one.append(ws_detail)
-            self.cp_list.append(cp_one)
+                try:
+                    info_list = info[0].split("\xa0\xa0\xa0\xa0")
+                    # ['深圳市福田区人民法院', '（2016）粤0304民初18775-18776号之一', '2017-07-10']
+                    fa_yuan = info_list[0]
+                    id = info_list[1]
+                    date = info_list[2]
+                except:
+                    fa_yuan = '未获取到'
+                    id = '未获取到'
+                    date = '未获取到'
+                cp_one.append(id)
+                cp_one.append(date)
+                cp_one.append(fa_yuan)
+                cp_one.append(title)
+                cp_one.append(jd)
+                cp_one.append(ws_detail)
+                self.cp_list.append(cp_one)
 
     # 检测是否有数据
     def pd_html(self):
@@ -81,9 +82,14 @@ class Handel_html(object):
                     print("*" * 10, str(e))
                     Log('log/cp_log.log', e=e)
                     return "获取文书内容失败"
-                html = ret.content.decode()
-                # print(html)
-                xml = etree.HTML(html)
+                try:
+                    html = ret.content.decode()
+                    # print(html)
+                    xml = etree.HTML(html)
+                except Exception as e:
+                    print("*" * 10, str(e))
+                    Log('log/cp_log.log', e=e)
+                    return "获取文书内容失败"
                 try:
                     ws_detail = xml.xpath("//body//text()")
                 except Exception as e:

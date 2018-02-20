@@ -87,6 +87,7 @@ class Cp_spider():
                 # 将错误写入日志
                 # print('发生异常')
                 self.driver.quit()
+                break
             time.sleep(10)
             page += 1
             try:
@@ -110,7 +111,7 @@ class Cp_spider():
 class main_spider():
 
     def __init__(self, csv, type=None):
-        self.company_list = read_company1(csv)
+        self.company_list = read_company2(csv)
         self.type = type
         self.client = pymongo.MongoClient(host='127.0.0.1', port=27017)
         self.conn = self.client["qg_ss"]['cp_info']
@@ -157,7 +158,7 @@ class main_spider():
 
 
 if __name__ == '__main__':
-    path = "/home/python/Desktop/company/qg.csv"
+    path = "/home/python/Desktop/company/sz_total.csv"
     m = main_spider(path)
     m.run()
     # print(cp_list)
