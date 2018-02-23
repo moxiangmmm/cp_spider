@@ -2,22 +2,17 @@
 
 from selenium import webdriver
 import time
-from handel_html import Handel_html
+from hand_html import Handel_html
 from rand_ua import Rand_ua
 from read_company import read_company2, read_company1
 from logs import Log
 from item_dumpkey import Item_dump
 import pymongo
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-# 遍历企业名单列表
-# 使用随机的ua去访问
-# 先打开完站搜索框输入关键字
-# 点击搜索
-# 等网页加载完后获取网页源码
-# 筛选出所需要的字段保存
-# 优化方案：
-# 获取文书的详细内容
-# 捕获随机出现的验证码并识别
+from pyvirtualdisplay import Display
+# 优化内容：
+# 将访问异常企业写入csv
+# 标记查询未完整的公司，数据未完整，只有前{}页,共{}页
+
 
 
 class Cp_spider():
@@ -25,17 +20,19 @@ class Cp_spider():
     def __init__(self, company):
         u = Rand_ua()
         ua = u.rand_chose()
+
         try:
-            # options = webdriver.ChromeOptions()
-            dcap = dict(DesiredCapabilities.PHANTOMJS)
-            u = Rand_ua()
-            ua = u.rand_chose()
-            dcap["phantomjs.page.settings.userAgent"] = (
-                ua
-            )
-            self.driver = webdriver.PhantomJS(desired_capabilities=dcap)
+
+            options = webdriver.ChromeOptions()
+            options.add_argument('--user-agent={}'.format(ua))
+            # options.add_argument("headless")
+            # prefs = {'profile.default_content_setting_values': {'images': 2}}
+            # options.add_experimental_option('prefs', prefs)  # 采用无图模式效果不理想
+
+            self.driver = webdriver.Chrome(chrome_options=options)
         except Exception as e:
             Log('log/cp_log.log', e=e)
+            # self.display.stop()
             return
 
         self.cp_url = "http://wenshu.court.gov.cn/"
@@ -45,19 +42,13 @@ class Cp_spider():
         # self.driver.implicitly_wait(15) # 显性等待
         try:
             self.driver.get(self.cp_url)
-            # self.driver.save_screenshot("./cp.png")
-            print("0000")
-            time.sleep(5)
             self.driver.find_element_by_xpath('//input[@id="gover_search_key"]').click()
-            print("1111")
             self.driver.find_element_by_xpath('//input[@id="gover_search_key"]').send_keys(self.company)
-            print("2222")
             self.driver.find_element_by_xpath("//button[@class='head_search_btn']").click()
-            print("3333")
         except Exception as e:
             print("*"*10,str(e))
             Log('log/cp_log.log',e=e)
-            self.driver.quit()
+            # self.driver.quit()
             return ["获取网页内容时出现异常"]
 
         time.sleep(10)
@@ -83,6 +74,7 @@ class Cp_spider():
 
         except Exception as e:
             Log('log/cp_log.log', e=e)
+            print("*" * 10, str(e))
             html = "获取网页内容时出现异常"
             html_list.append(html)
             total_page = 0
@@ -92,37 +84,41 @@ class Cp_spider():
         html_list.append(html)
 
         while page < total_page:
+            print("***********page", page)
             try:
-                self.driver.implicitly_wait(15)
+                # self.driver.implicitly_wait(15) 使用未生效
+                time.sleep(3)
                 self.driver.find_element_by_xpath('//a[@class="next"]').click()
-            except:
+            except Exception as e:
                 # 将错误写入日志
                 # print('发生异常')
+                print("*"*10, str(e))
                 self.driver.quit()
+                html_list.append("数据未完整，只有前{}页,共{}页".format(page,total_page))
+                break
             time.sleep(10)
             page += 1
             try:
                 html = self.driver.page_source
             except Exception as e:
+                print("*" * 10, str(e))
                 Log('log/cp_log.log', e=e)
                 html = "获取网页内容时出现异常"
                 html_list.append(html)
                 self.driver.quit()
+                # self.display.start()
             html_list.append(html)
 
         self.driver.quit()
-
+        # self.display.start()
 
         return html_list
-
-
-
 
 
 class main_spider():
 
     def __init__(self, csv, type=None):
-        self.company_list = read_company1(csv)
+        self.company_list = read_company2(csv)
         self.type = type
         self.client = pymongo.MongoClient(host='127.0.0.1', port=27017)
         self.conn = self.client["qg_ss"]['cp_info']
@@ -143,13 +139,20 @@ class main_spider():
                 if html_list == ["无符合条件的数据"]:
                     cp_list = ["无符合条件的数据"]
                 else:
-                    h = Handel_html(html_list)
+                    h = Handel_html(html_list=html_list)
                     cp_list = h.run()
-                item["company"] = company
-                item["type"] = self.type
-                item["文书信息"] = cp_list
-                print(item)
-                self.save_mongodb(item)
+
+                # 如果获取内容出现异常时计入异常名单
+                if cp_list == ["获取网页内容时出现异常"]:
+                    with open('log/except_company.csv','a') as f:
+                        f.write(company+'\n')
+                else:
+                    item["company"] = company
+                    item["type"] = self.type
+                    item["文书信息"] = cp_list
+                    print(item)
+                    self.save_mongodb(item)
+
 
     def run_text(self):
         for company in self.company_list:
@@ -159,7 +162,7 @@ class main_spider():
             if html_list == ["无符合条件的数据"]:
                 cp_list = ["无符合条件的数据"]
             else:
-                h = Handel_html(html_list)
+                h = Handel_html(html_list=html_list)
                 cp_list = h.run()
             item["company"] = company
             item["type"] = self.type
@@ -169,7 +172,8 @@ class main_spider():
 
 
 if __name__ == '__main__':
-    path = "/home/python/Desktop/company/qg.csv"
+    path = "/home/python/Desktop/company/sz_total.csv"
+    # path = "./log/text_company.csv"
     m = main_spider(path)
     m.run_text()
     # print(cp_list)

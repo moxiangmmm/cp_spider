@@ -33201,3 +33201,694 @@ Message: unexpected alert open
 2018-02-20 10:04:30.582312,'Cp_spider' object has no attribute 'driver',,
 2018-02-20 10:05:20.987516,[Errno 104] Connection reset by peer,,
 2018-02-20 10:05:20.987697,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 12:27:46.908144,[Errno 104] Connection reset by peer,,
+2018-02-20 12:27:46.908419,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 12:38:09.981956,Message: timeout: Timed out receiving message from renderer: 244.237
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 13:08:09.112556,HTTPConnectionPool(host='wenshu.court.gov.cn', port=80): Read timed out. (read timeout=60),,
+2018-02-20 13:08:20.864332,[Errno 104] Connection reset by peer,,
+2018-02-20 13:08:20.864712,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 13:08:35.822648,list index out of range,,
+2018-02-20 13:20:53.659175,list index out of range,,
+2018-02-20 13:24:40.653077,list index out of range,,
+2018-02-20 13:32:25.632329,[Errno 104] Connection reset by peer,,
+2018-02-20 13:32:25.632548,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 13:35:16.429857,[Errno 104] Connection reset by peer,,
+2018-02-20 13:35:16.430272,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 13:40:46.854456,'utf-8' codec can't decode byte 0xb7 in position 252: invalid start byte,,
+2018-02-20 13:40:47.166984,'utf-8' codec can't decode byte 0xb7 in position 252: invalid start byte,,
+2018-02-20 13:40:47.475032,'utf-8' codec can't decode byte 0xb7 in position 252: invalid start byte,,
+2018-02-20 13:41:04.575599,list index out of range,,
+2018-02-20 13:41:06.888435,[Errno 104] Connection reset by peer,,
+2018-02-20 13:41:06.888682,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 13:41:37.292969,list index out of range,,
+2018-02-20 13:47:50.276699,list index out of range,,
+2018-02-20 13:57:48.226204,list index out of range,,
+2018-02-20 13:58:13.262967,list index out of range,,
+2018-02-20 13:58:27.900907,list index out of range,,
+2018-02-20 13:58:43.074616,list index out of range,,
+2018-02-20 14:01:59.054244,[Errno 104] Connection reset by peer,,
+2018-02-20 14:01:59.055227,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 14:03:45.904300,list index out of range,,
+2018-02-20 14:03:47.032096,[Errno 104] Connection reset by peer,,
+2018-02-20 14:03:47.032586,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 14:12:20.792504,list index out of range,,
+2018-02-20 14:13:15.178415,[Errno 104] Connection reset by peer,,
+2018-02-20 14:13:15.179123,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 14:20:18.979252,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 14:21:00.155114,list index out of range,,
+2018-02-20 14:23:21.139258,list index out of range,,
+2018-02-20 14:23:35.711052,list index out of range,,
+2018-02-20 14:26:05.944861,[Errno 104] Connection reset by peer,,
+2018-02-20 14:26:05.945847,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 14:36:00.239911,[Errno 104] Connection reset by peer,,
+2018-02-20 14:36:00.240249,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 14:38:59.047107,[Errno 104] Connection reset by peer,,
+2018-02-20 14:38:59.049077,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 14:40:55.194116,list index out of range,,
+2018-02-20 14:45:35.902464,list index out of range,,
+2018-02-20 14:46:59.213901,[Errno 104] Connection reset by peer,,
+2018-02-20 14:46:59.214702,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 14:53:10.388216,list index out of range,,
+2018-02-20 14:53:25.026998,list index out of range,,
+2018-02-20 15:03:05.879660,list index out of range,,
+2018-02-20 15:05:14.605304,[Errno 104] Connection reset by peer,,
+2018-02-20 15:05:14.605807,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:05:58.789401,list index out of range,,
+2018-02-20 15:06:13.573396,list index out of range,,
+2018-02-20 15:12:30.007456,list index out of range,,
+2018-02-20 15:12:32.306034,[Errno 104] Connection reset by peer,,
+2018-02-20 15:12:32.306896,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:14:54.055552,[Errno 104] Connection reset by peer,,
+2018-02-20 15:14:54.056659,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:15:08.772365,list index out of range,,
+2018-02-20 15:15:39.609583,[Errno 104] Connection reset by peer,,
+2018-02-20 15:15:39.610864,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:21:48.441554,[Errno 104] Connection reset by peer,,
+2018-02-20 15:21:48.442110,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:26:01.513192,list index out of range,,
+2018-02-20 15:26:36.545863,list index out of range,,
+2018-02-20 15:27:03.182280,list index out of range,,
+2018-02-20 15:27:05.481190,[Errno 104] Connection reset by peer,,
+2018-02-20 15:27:05.482141,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:27:20.110087,list index out of range,,
+2018-02-20 15:28:02.983811,list index out of range,,
+2018-02-20 15:29:32.191708,[Errno 104] Connection reset by peer,,
+2018-02-20 15:29:32.192291,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:29:33.246714,[Errno 104] Connection reset by peer,,
+2018-02-20 15:29:33.247820,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:36:41.481160,[Errno 104] Connection reset by peer,,
+2018-02-20 15:36:41.481570,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:38:44.112246,list index out of range,,
+2018-02-20 15:44:26.422753,list index out of range,,
+2018-02-20 15:44:40.952274,list index out of range,,
+2018-02-20 15:50:05.281851,list index out of range,,
+2018-02-20 15:50:06.387919,[Errno 104] Connection reset by peer,,
+2018-02-20 15:50:06.388714,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:50:21.185243,list index out of range,,
+2018-02-20 15:53:03.674267,list index out of range,,
+2018-02-20 15:54:34.091162,[Errno 104] Connection reset by peer,,
+2018-02-20 15:54:34.091386,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 15:56:01.177182,list index out of range,,
+2018-02-20 16:01:08.215165,list index out of range,,
+2018-02-20 16:01:23.223785,list index out of range,,
+2018-02-20 16:01:37.807502,list index out of range,,
+2018-02-20 16:02:15.907071,list index out of range,,
+2018-02-20 16:04:39.089901,list index out of range,,
+2018-02-20 16:07:17.605857,list index out of range,,
+2018-02-20 16:08:04.181595,[Errno 104] Connection reset by peer,,
+2018-02-20 16:08:04.181920,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 16:09:09.738764,[Errno 104] Connection reset by peer,,
+2018-02-20 16:09:09.738995,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 16:11:17.789270,list index out of range,,
+2018-02-20 16:17:45.486938,list index out of range,,
+2018-02-20 16:18:25.727028,list index out of range,,
+2018-02-20 16:28:48.358271,[Errno 104] Connection reset by peer,,
+2018-02-20 16:28:48.359503,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 16:49:50.246944,[Errno 104] Connection reset by peer,,
+2018-02-20 16:49:50.247756,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 16:50:06.157335,[Errno 104] Connection reset by peer,,
+2018-02-20 16:50:06.158198,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 16:50:45.512477,list index out of range,,
+2018-02-20 16:51:10.609511,list index out of range,,
+2018-02-20 16:51:54.040810,list index out of range,,
+2018-02-20 17:02:57.865957,[Errno 104] Connection reset by peer,,
+2018-02-20 17:02:57.866534,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 17:03:12.439337,list index out of range,,
+2018-02-20 17:14:01.172463,[Errno 104] Connection reset by peer,,
+2018-02-20 17:14:01.174030,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 17:14:16.002429,list index out of range,,
+2018-02-20 17:24:59.464134,list index out of range,,
+2018-02-20 17:26:23.512217,list index out of range,,
+2018-02-20 17:26:23.614963,[Errno 104] Connection reset by peer,,
+2018-02-20 17:26:23.615328,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 17:27:08.686684,[Errno 104] Connection reset by peer,,
+2018-02-20 17:27:08.689240,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 17:39:57.420838,list index out of range,,
+2018-02-20 17:40:12.200686,list index out of range,,
+2018-02-20 17:57:55.808463,'NoneType' object has no attribute 'xpath',,
+2018-02-20 17:57:56.146410,'NoneType' object has no attribute 'xpath',,
+2018-02-20 17:57:56.455810,'NoneType' object has no attribute 'xpath',,
+2018-02-20 17:57:56.837080,'utf-8' codec can't decode byte 0xb7 in position 252: invalid start byte,,
+2018-02-20 17:58:11.803624,list index out of range,,
+2018-02-20 17:58:55.436587,list index out of range,,
+2018-02-20 18:07:25.725696,list index out of range,,
+2018-02-20 18:15:47.196624,list index out of range,,
+2018-02-20 18:22:33.320160,list index out of range,,
+2018-02-20 18:26:45.350785,list index out of range,,
+2018-02-20 18:48:40.761470,list index out of range,,
+2018-02-20 18:49:57.222288,[Errno 104] Connection reset by peer,,
+2018-02-20 18:49:57.223506,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 18:51:54.731056,[Errno 104] Connection reset by peer,,
+2018-02-20 18:51:54.732330,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 19:10:53.728574,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 19:15:28.937178,[Errno 104] Connection reset by peer,,
+2018-02-20 19:15:28.938169,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 19:19:57.888933,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 19:21:16.518118,list index out of range,,
+2018-02-20 19:21:46.190920,list index out of range,,
+2018-02-20 19:22:04.088502,list index out of range,,
+2018-02-20 19:32:23.476474,[Errno 104] Connection reset by peer,,
+2018-02-20 19:32:23.476665,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 19:39:09.009630,list index out of range,,
+2018-02-20 19:50:31.482479,[Errno 104] Connection reset by peer,,
+2018-02-20 19:50:31.483500,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 19:55:49.979376,list index out of range,,
+2018-02-20 19:56:07.074410,list index out of range,,
+2018-02-20 20:02:04.540313,[Errno 104] Connection reset by peer,,
+2018-02-20 20:02:04.541054,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 20:15:29.260210,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 20:16:14.224340,[Errno 104] Connection reset by peer,,
+2018-02-20 20:16:14.224641,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 20:26:09.725243,[Errno 104] Connection reset by peer,,
+2018-02-20 20:26:09.725858,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 20:26:10.975772,[Errno 104] Connection reset by peer,,
+2018-02-20 20:26:10.976559,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 20:28:01.815430,[Errno 104] Connection reset by peer,,
+2018-02-20 20:28:01.815892,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 20:28:16.523221,list index out of range,,
+2018-02-20 20:28:31.520295,list index out of range,,
+2018-02-20 20:28:46.139223,list index out of range,,
+2018-02-20 20:29:00.819594,list index out of range,,
+2018-02-20 20:29:15.700437,list index out of range,,
+2018-02-20 20:29:30.617715,list index out of range,,
+2018-02-20 20:29:47.143647,list index out of range,,
+2018-02-20 20:41:17.432233,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 21:02:41.755795,list index out of range,,
+2018-02-20 21:03:12.924877,list index out of range,,
+2018-02-20 21:03:14.004600,[Errno 104] Connection reset by peer,,
+2018-02-20 21:03:14.005070,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 21:27:04.851132,[Errno 104] Connection reset by peer,,
+2018-02-20 21:27:04.851985,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 21:31:34.741011,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 21:39:26.222871,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 21:54:10.679431,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 22:10:10.312772,list index out of range,,
+2018-02-20 22:12:41.212292,[Errno 104] Connection reset by peer,,
+2018-02-20 22:12:41.212531,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 22:14:54.128576,[Errno 104] Connection reset by peer,,
+2018-02-20 22:14:54.129097,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 22:14:55.158193,[Errno 104] Connection reset by peer,,
+2018-02-20 22:14:55.158440,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 22:16:10.618413,[Errno 104] Connection reset by peer,,
+2018-02-20 22:16:10.618667,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 22:26:44.618468,list index out of range,,
+2018-02-20 22:35:23.719536,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 22:35:36.654385,[Errno 104] Connection reset by peer,,
+2018-02-20 22:35:36.655225,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 22:42:24.700793,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 22:43:21.746244,list index out of range,,
+2018-02-20 22:52:01.682260,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 22:57:30.652883,Message: unknown error: session deleted because of page crash
+from tab crashed
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 23:17:17.863912,list index out of range,,
+2018-02-20 23:21:47.588571,[Errno 104] Connection reset by peer,,
+2018-02-20 23:21:47.590553,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 23:23:52.679480,[Errno 104] Connection reset by peer,,
+2018-02-20 23:23:52.679907,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 23:32:42.070816,list index out of range,,
+2018-02-20 23:32:56.983471,list index out of range,,
+2018-02-20 23:33:24.631884,list index out of range,,
+2018-02-20 23:33:47.704764,list index out of range,,
+2018-02-20 23:34:24.282012,list index out of range,,
+2018-02-20 23:39:32.646189,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 23:49:07.768407,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-20 23:49:36.219094,list index out of range,,
+2018-02-20 23:49:50.958825,list index out of range,,
+2018-02-20 23:50:05.731545,list index out of range,,
+2018-02-20 23:50:42.358386,list index out of range,,
+2018-02-20 23:51:02.087420,list index out of range,,
+2018-02-20 23:53:15.134837,[Errno 104] Connection reset by peer,,
+2018-02-20 23:53:15.175808,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 23:53:33.172887,[Errno 104] Connection reset by peer,,
+2018-02-20 23:53:33.174024,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 23:54:49.473141,[Errno 104] Connection reset by peer,,
+2018-02-20 23:54:49.473400,'Cp_spider' object has no attribute 'driver',,
+2018-02-20 23:55:59.155890,[Errno 104] Connection reset by peer,,
+2018-02-20 23:55:59.156601,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 00:08:41.999143,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 00:16:10.384267,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 00:16:24.275961,[Errno 104] Connection reset by peer,,
+2018-02-21 00:16:24.276720,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 00:16:25.543235,[Errno 104] Connection reset by peer,,
+2018-02-21 00:16:25.544032,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 00:20:45.715103,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 00:32:24.800377,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 00:39:01.129600,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 00:39:13.744052,[Errno 104] Connection reset by peer,,
+2018-02-21 00:39:13.744538,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 00:40:46.670219,list index out of range,,
+2018-02-21 00:55:09.277610,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 00:56:43.281438,list index out of range,,
+2018-02-21 00:56:57.983394,list index out of range,,
+2018-02-21 00:57:13.288121,list index out of range,,
+2018-02-21 01:02:28.009938,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 01:04:11.529857,[Errno 104] Connection reset by peer,,
+2018-02-21 01:04:11.530634,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 01:08:33.573228,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 01:33:44.948339,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 01:39:32.597503,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 01:45:44.244512,[Errno 104] Connection reset by peer,,
+2018-02-21 01:45:44.244717,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 01:47:16.054162,list index out of range,,
+2018-02-21 01:58:14.020295,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 02:01:57.160475,[Errno 104] Connection reset by peer,,
+2018-02-21 02:01:57.161353,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 02:24:12.909166,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 02:38:36.309049,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 02:50:28.568550,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 02:53:56.329112,list index out of range,,
+2018-02-21 02:53:57.421707,[Errno 104] Connection reset by peer,,
+2018-02-21 02:53:57.421909,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 02:58:28.687156,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 03:08:30.534977,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 03:10:47.132022,list index out of range,,
+2018-02-21 03:13:51.960823,[Errno 104] Connection reset by peer,,
+2018-02-21 03:13:51.961686,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 03:14:54.737912,[Errno 104] Connection reset by peer,,
+2018-02-21 03:14:54.738788,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 03:14:55.830590,[Errno 104] Connection reset by peer,,
+2018-02-21 03:14:55.831018,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 03:28:47.376225,list index out of range,,
+2018-02-21 03:29:43.846458,[Errno 104] Connection reset by peer,,
+2018-02-21 03:29:43.847263,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 03:34:48.148369,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 03:44:23.937389,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 03:45:24.192514,HTTPConnectionPool(host='wenshu.court.gov.cn', port=80): Read timed out. (read timeout=60),,
+2018-02-21 03:56:08.295353,[Errno 104] Connection reset by peer,,
+2018-02-21 03:56:08.296444,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 04:02:43.815591,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 04:07:33.353242,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 04:12:56.607965,[Errno 104] Connection reset by peer,,
+2018-02-21 04:12:56.608433,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 04:17:24.567132,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 04:18:29.281393,HTTPConnectionPool(host='wenshu.court.gov.cn', port=80): Read timed out. (read timeout=60),,
+2018-02-21 04:19:31.642117,list index out of range,,
+2018-02-21 04:19:54.536876,list index out of range,,
+2018-02-21 04:25:39.800732,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 04:35:56.733308,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 04:53:18.736988,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 04:54:02.227898,list index out of range,,
+2018-02-21 05:01:10.174394,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 05:09:44.461154,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 05:18:46.950665,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 05:23:44.338083,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 05:26:45.017565,list index out of range,,
+2018-02-21 05:27:07.758853,list index out of range,,
+2018-02-21 05:27:14.584024,list index out of range,,
+2018-02-21 05:28:15.380074,list index out of range,,
+2018-02-21 05:34:07.986711,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 05:43:31.716105,list index out of range,,
+2018-02-21 05:43:46.185023,list index out of range,,
+2018-02-21 05:44:18.154503,list index out of range,,
+2018-02-21 05:44:32.954899,list index out of range,,
+2018-02-21 05:44:47.745446,list index out of range,,
+2018-02-21 05:53:33.710172,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 05:55:33.181675,[Errno 104] Connection reset by peer,,
+2018-02-21 05:55:33.181917,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 06:06:19.191697,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 06:10:01.050237,[Errno 104] Connection reset by peer,,
+2018-02-21 06:10:01.081369,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 06:26:12.600857,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 06:31:10.716255,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 06:50:48.681643,list index out of range,,
+2018-02-21 06:51:03.503631,list index out of range,,
+2018-02-21 06:51:31.557748,[Errno 104] Connection reset by peer,,
+2018-02-21 06:51:31.558010,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 06:52:02.550346,list index out of range,,
+2018-02-21 07:00:47.674556,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 07:07:51.509879,list index out of range,,
+2018-02-21 07:08:36.009713,list index out of range,,
+2018-02-21 07:08:52.589062,[Errno 104] Connection reset by peer,,
+2018-02-21 07:08:52.589238,'Cp_spider' object has no attribute 'driver',,
+2018-02-21 07:15:35.936241,Alert Text: None
+Message: unexpected alert open
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-21 07:25:02.596788,Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 13:59:03.184174,Message: chrome not reachable
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.17.340116 (2557bebb9de060c37c1a5d8d51ef72bb91106af6),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 14:58:46.923631,Message: session not created exception: Chrome version must be >= 59.0.3071.0
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 14:58:46.923881,'Cp_spider' object has no attribute 'driver',,
+2018-02-22 14:58:48.714458,Message: session not created exception: Chrome version must be >= 59.0.3071.0
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 14:58:48.714720,'Cp_spider' object has no attribute 'driver',,
+2018-02-22 14:58:50.429008,Message: session not created exception: Chrome version must be >= 59.0.3071.0
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 14:58:50.429386,'Cp_spider' object has no attribute 'driver',,
+2018-02-22 14:58:52.242609,Message: session not created exception: Chrome version must be >= 59.0.3071.0
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 14:58:52.242735,'Cp_spider' object has no attribute 'driver',,
+2018-02-22 14:58:53.874382,Message: session not created exception: Chrome version must be >= 59.0.3071.0
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 14:58:53.874584,'Cp_spider' object has no attribute 'driver',,
+2018-02-22 14:58:56.092330,Message: session not created exception: Chrome version must be >= 59.0.3071.0
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 14:58:56.092635,'Cp_spider' object has no attribute 'driver',,
+2018-02-22 14:58:58.206867,Message: session not created exception: Chrome version must be >= 59.0.3071.0
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 14:58:58.207093,'Cp_spider' object has no attribute 'driver',,
+2018-02-22 14:59:00.486175,Message: session not created exception: Chrome version must be >= 59.0.3071.0
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 14:59:00.486367,'Cp_spider' object has no attribute 'driver',,
+2018-02-22 16:27:15.759553,Message: element not visible
+  (Session info: headless chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 16:27:23.747731,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: headless chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 16:27:34.938843,Message: element not visible
+  (Session info: headless chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 16:27:48.977641,Message: element not visible
+  (Session info: headless chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 16:31:17.867182,Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 16:32:22.583599,Message: element not visible
+  (Session info: headless chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 16:32:36.845178,Message: element not visible
+  (Session info: headless chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 17:04:07.406184,Message: unknown error: Element is not clickable at point (500, -182)
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 17:05:20.463062,[Errno 104] Connection reset by peer,,
+2018-02-22 17:05:20.464002,'Cp_spider' object has no attribute 'driver',,
+2018-02-22 17:38:00.570905,Message: element not visible
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 17:38:10.478486,Message: element not visible
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-22 17:38:19.403174,Message: element not visible
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 09:33:42.652927,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 09:36:51.563940,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 09:36:59.504518,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 09:37:39.969391,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 09:37:40.981868,[Errno 104] Connection reset by peer,,
+2018-02-23 09:37:40.982201,'Cp_spider' object has no attribute 'driver',,
+2018-02-23 09:39:31.052953,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 10:01:24.239233,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 10:03:20.611247,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 10:30:54.286073,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 10:31:08.210085,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 10:46:33.534738,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 10:47:30.009063,[Errno 104] Connection reset by peer,,
+2018-02-23 10:47:30.010149,'Cp_spider' object has no attribute 'driver',,
+2018-02-23 10:51:46.715841,list index out of range,,
+2018-02-23 10:53:03.564508,list index out of range,,
+2018-02-23 10:53:11.737949,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 10:54:01.951387,[Errno 104] Connection reset by peer,,
+2018-02-23 10:54:01.952285,'Cp_spider' object has no attribute 'driver',,
+2018-02-23 10:54:09.982558,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 10:54:43.849181,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 11:27:34.629810,[Errno 104] Connection reset by peer,,
+2018-02-23 11:27:34.630360,'Cp_spider' object has no attribute 'driver',,
+2018-02-23 11:28:36.877576,[Errno 104] Connection reset by peer,,
+2018-02-23 11:28:36.878693,'Cp_spider' object has no attribute 'driver',,
+2018-02-23 11:28:45.181457,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 11:48:22.982996,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 11:48:32.471875,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 11:51:30.327092,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,
+2018-02-23 11:56:15.960950,Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351),platform=Linux 4.4.0-31-generic x86_64)
+,,

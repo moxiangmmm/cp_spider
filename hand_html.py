@@ -5,6 +5,7 @@ import requests
 from rand_ua import Rand_ua
 from logs import Log
 import time
+import re
 class Handel_html(object):
 
     def __init__(self, html_list=None, html=None):
@@ -108,8 +109,11 @@ class Handel_html(object):
         for html in self.html_list:
             if html == "获取网页内容时出现异常":
                 return ["获取网页内容时出现异常"]
-            self.handel(html)
-            return self.cp_list
+            elif re.findall(r'数据未完整，只有前\w+页,共\w+页',html):
+                self.cp_list.append(html)
+            else:
+                self.handel(html)
+        return self.cp_list
 
 
 if __name__ == '__main__':

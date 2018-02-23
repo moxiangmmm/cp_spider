@@ -71,6 +71,7 @@ class Cp_spider():
 
         except Exception as e:
             Log('log/cp_log.log', e=e)
+            print("*" * 10, str(e))
             html = "获取网页内容时出现异常"
             html_list.append(html)
             total_page = 0
@@ -80,10 +81,12 @@ class Cp_spider():
         html_list.append(html)
 
         while page < total_page:
+            print("***********page",page)
             try:
                 self.driver.implicitly_wait(15)
                 self.driver.find_element_by_xpath('//a[@class="next"]').click()
-            except:
+            except Exception as e:
+                print("*" * 10, str(e))
                 # 将错误写入日志
                 # print('发生异常')
                 self.driver.quit()
@@ -160,7 +163,8 @@ class main_spider():
 if __name__ == '__main__':
     path = "/home/python/Desktop/company/sz_total.csv"
     m = main_spider(path)
-    m.run()
+    # m.run()
+    m.run_text()
     # print(cp_list)
 
 
