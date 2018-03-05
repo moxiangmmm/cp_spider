@@ -13,8 +13,6 @@ from pyvirtualdisplay import Display
 # 将访问异常企业写入csv
 # 标记查询未完整的公司，数据未完整，只有前{}页,共{}页
 
-
-
 class Cp_spider():
 
     def __init__(self, company):
@@ -80,14 +78,12 @@ class Cp_spider():
             total_page = 0
             self.driver.quit()
 
-
         html_list.append(html)
-
+        time.sleep(10)
         while page < total_page:
             print("***********page", page)
             try:
                 # self.driver.implicitly_wait(15) 使用未生效
-                time.sleep(3)
                 self.driver.find_element_by_xpath('//a[@class="next"]').click()
             except Exception as e:
                 # 将错误写入日志
@@ -96,7 +92,7 @@ class Cp_spider():
                 self.driver.quit()
                 html_list.append("数据未完整，只有前{}页,共{}页".format(page,total_page))
                 break
-            time.sleep(10)
+            time.sleep(15)
             page += 1
             try:
                 html = self.driver.page_source
@@ -121,7 +117,7 @@ class main_spider():
         self.company_list = read_company2(csv)
         self.type = type
         self.client = pymongo.MongoClient(host='127.0.0.1', port=27017)
-        self.conn = self.client["qg_ss"]['cp_info']
+        self.conn = self.client["qg_ss"]['cp_info_2']
 
     def save_mongodb(self, item):
         self.conn.insert_one(dict(item))
@@ -172,10 +168,10 @@ class main_spider():
 
 
 if __name__ == '__main__':
-    path = "/home/python/Desktop/company/sz_total.csv"
+    path = "/home/python/Desktop/company/ah_company_23316.csv"
     # path = "./log/text_company.csv"
     m = main_spider(path)
-    m.run_text()
+    m.run()
     # print(cp_list)
 
 
