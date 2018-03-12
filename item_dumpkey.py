@@ -4,9 +4,9 @@ import hashlib
 
 class Item_dump():
 
-    def __init__(self, company):
+    def __init__(self, company, key_name):
         self.r = redis.Redis(host='127.0.0.1', port=6379, db=5) # 连接数据库
-        self.item_key = "cp_dump"
+        self.item_key = key_name
         self.company = company
 
     def item_dump(self):
@@ -26,7 +26,7 @@ if __name__ == '__main__':
         ret = i.item_dump()
         print(ret)
         if not ret:
-            with open('./log/un_c.csv','a') as f:
+            with open('./log/new_company.csv','a') as f:
                 f.write(company)
 
 

@@ -1,5 +1,4 @@
 # coding=utf-8
-
 from selenium import webdriver
 import time
 from hand_html import Handel_html
@@ -8,6 +7,7 @@ from read_company import read_company2, read_company1
 from logs import Log
 from item_dumpkey import Item_dump
 import pymongo
+import concurrent.futures
 # 优化内容：
 # 将访问异常企业写入csv
 # 标记查询未完整的公司，数据未完整，只有前{}页,共{}页
@@ -25,7 +25,6 @@ class Cp_spider():
             # options.add_argument("headless")
             # prefs = {'profile.default_content_setting_values': {'images': 2}}
             # options.add_experimental_option('prefs', prefs)  # 采用无图模式效果不理想
-
             self.driver = webdriver.Chrome(chrome_options=options,executable_path=path)
         except Exception as e:
             Log('log/cp_log.log', e=e)
@@ -109,48 +108,14 @@ class Cp_spider():
 
         return html_list
 
-
-class main_spider():
-
-    def __init__(self, csv, type=None):
-        self.company_list = read_company2(csv)
-        self.type = type
-        self.client = pymongo.MongoClient(host='127.0.0.1', port=27017)
-        self.conn = self.client["qg_ss"]['cp_info_2']
-
-    def save_mongodb(self, item):
-        self.conn.insert_one(dict(item))
-        print("保存成功！")
-
-
-    def run(self):
-        for company in self.company_list:
-            i = Item_dump(company)
-            ret = i.item_dump()
-            if not ret:
-                item = {}
-                cp = Cp_spider(company)
-                html_list = cp.get_info()
-                if html_list == ["无符合条件的数据"]:
-                    cp_list = ["无符合条件的数据"]
-                else:
-                    h = Handel_html(html_list=html_list)
-                    cp_list = h.run()
-
-                # 如果获取内容出现异常时计入异常名单
-                if cp_list == ["获取网页内容时出现异常"]:
-                    with open('log/except_company.csv','a') as f:
-                        f.write(company+'\n')
-                else:
-                    item["company"] = company
-                    item["type"] = self.type
-                    item["文书信息"] = cp_list
-                    print(item)
-                    self.save_mongodb(item)
-
-
-    def run_text(self):
-        for company in self.company_list:
+def main_spider(path,key_name,except_name):
+    company_list = read_company2(path)
+    client = pymongo.MongoClient(host='127.0.0.1', port=27017)
+    conn = client["qg_ss"]['cp_info_2']
+    for company in company_list:
+        i = Item_dump(company,key_name)
+        ret = i.item_dump()
+        if not ret:
             item = {}
             cp = Cp_spider(company)
             html_list = cp.get_info()
@@ -159,19 +124,43 @@ class main_spider():
             else:
                 h = Handel_html(html_list=html_list)
                 cp_list = h.run()
-            item["company"] = company
-            item["type"] = self.type
-            item["文书信息"] = cp_list
-            print(item)
-
+            if cp_list == ["获取网页内容时出现异常"]:
+                with open('log/{}.csv'.format(except_name), 'a') as f:
+                    f.write(company + '\n')
+            else:
+                item["company"] = company
+                item["文书信息"] = cp_list
+                print(item)
+                conn.insert_one(dict(item))
+                print("保存成功")
 
 
 if __name__ == '__main__':
-    path = "E:\spider\cp_spider\log\\new_company.csv"
-    # path = "./log/text_company.csv"
-    m = main_spider(path)
-    m.run_text()
-    # print(cp_list)
+    # 建立一个进程池，
+    # 一个进程跑主程序，一个进程跑异常名单的程序
+    path_normal = "E:\spider\cp_spider\log\\new_company.csv"
+    path_except = "E:\spider\cp_spider\log\except_company.csv"
+    futures = set()
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        print("进程1启动》》》》》》》》")
+        future1 = executor.submit(main_spider,path_normal,'cp_dump','except_company',)
+        futures.add(future1)
+        print("进程2启动》》》》》》》》")
+        future2 = executor.submit(main_spider,path_except,"cp_except","except_company_2",)
+        futures.add(future2)
+
+    try:
+        for future in concurrent.futures.as_completed(futures):
+            err = future.exception()
+            if err is not None:
+                raise err
+    except KeyboardInterrupt:
+        print("stopped by hand")
+
+
+
+
+
 
 
 

@@ -47953,3 +47953,11 @@ from disconnected: Unable to receive message from renderer
 ,,
 2018-03-12 07:12:53.718181,[Errno 104] Connection reset by peer,,
 2018-03-12 07:12:53.719625,'Cp_spider' object has no attribute 'driver',,
+2018-03-12 15:10:59.698621,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.10586 x86_64)
+,,
+2018-03-12 15:11:35.693701,Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="gover_search_key"]"}
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.10586 x86_64)
+,,

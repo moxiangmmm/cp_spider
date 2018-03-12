@@ -23,7 +23,7 @@ def read_company1(csv):
 
 def read_company2(csv):
     company_list = []
-    with open(csv, 'r') as f:
+    with open(csv, 'r', encoding='utf-8') as f:
         c_list = f.readlines()
     for c in c_list:
         company = c.strip()
