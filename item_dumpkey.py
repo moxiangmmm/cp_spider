@@ -19,10 +19,16 @@ class Item_dump():
 
 
 if __name__ == '__main__':
-    item = {"_id":2}
-    i = Item_dump(item)
-    ret = i.item_dump()
-    print(ret)
+    with open("/home/python/Desktop/company/ah_company_23316.csv",'r') as f:
+        company_list = f.readlines()
+    for company in company_list:
+        i = Item_dump(company.strip())
+        ret = i.item_dump()
+        print(ret)
+        if not ret:
+            with open('./log/un_c.csv','a') as f:
+                f.write(company)
+
 
 
 
